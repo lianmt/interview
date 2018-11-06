@@ -26,6 +26,7 @@
 4. this 的用法：函数内、对象、构造函数生成对象、apply改变函数的调用对象，用第一个参数
 5. 简单的问题：'=='（可转换数据类型）  和 '==='（类型&值） 有什么不同？有undefined 和 null的情况要用 '==='
 6. 构造函数？就是构造一个封装一个可继承对象的方法（函数）
+7. 如何区分数组和对象？Array.isArray(obj); （构造函数）instanceof；（构造函数）constructor（原型链）isPrototypeOf；
 
 ## css？
 
