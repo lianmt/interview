@@ -55,7 +55,7 @@
 
 1. 与gulp的不同，改进的点
 
-## websockt
+## websocket
 
 1. 为什么会有websockt，原来用什么方法实现，websock做了哪些改进，要注意close
 2. 有哪些关键的API，做了哪些事情，在webpack如何配置
