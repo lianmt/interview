@@ -27,6 +27,8 @@
 5. 简单的问题：'=='（可转换数据类型）  和 '==='（类型&值） 有什么不同？有undefined 和 null的情况要用 '==='
 6. 构造函数？就是构造一个封装一个可继承对象的方法（函数）
 7. 如何区分数组和对象？Array.isArray(obj); （构造函数）instanceof；（构造函数）constructor（原型链）isPrototypeOf；
+8. 为什么需要promise？JavaScript是单线程执行的，所以需要等待的方法都是异步。Promise是一个对象，这个对象屏蔽了一个需要等待的异步操作的内部逻辑而只关心它的结果。
+就像ajax(), 根据请求的成功或失败调用success()或fail()
 
 ## css？
 
