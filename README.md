@@ -29,6 +29,7 @@
 7. 如何区分数组和对象？Array.isArray(obj); （构造函数）instanceof；（构造函数）constructor（原型链）isPrototypeOf；
 8. 为什么需要promise？JavaScript是单线程执行的，所以需要等待的方法都是异步。Promise是一个对象，这个对象屏蔽了一个需要等待的异步操作的内部逻辑而只关心它的结果。
 就像ajax(), 根据请求的成功或失败调用success()或fail()
+9. js自动在行尾添加分号；
 
 ## css？
 
@@ -100,6 +101,12 @@
    html5的webWorkers提供了js的后台处理线程的API，它允许将复杂耗时的单纯js逻辑处理放在浏览器后台线程中进行处理，让js线程不阻塞UI线程的渲染。这个线程不能和页面进行交互，如获取元素、alert等。
 7. html原生组件封装?
    组件间的独立性，showDOM隔离全局；伪类改变封装好的组件的样式。多关注，大家都没有关注到的东西。
+8. 任务队列？
+    ```
+    setTimeout(() => { console.log(1) }, 0)
+    console.log(1)
+    // ?
+    ```
 
 ## 职业计划
 
